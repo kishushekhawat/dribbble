@@ -1,0 +1,438 @@
+body{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+@media(min-width:1200px){
+
+
+.img-logo{
+    width: 130px;
+}
+.nav-bar{
+    margin: 16px;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+}
+.menulogo{
+    display: none;
+}
+
+.flex{
+    display: flex;
+
+    justify-content: space-between;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+
+}
+.search{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 360px;
+
+    background-color: rgb(245, 244, 244);
+    border-radius: 30px;
+    padding: 4px 18px;
+     color: rgba(110, 110, 110, 0.767);
+}
+
+.sign-btn{
+    color: white;
+    background-color: rgb(0, 0, 27);
+    border: none;
+    font-weight: 600;
+    padding: 14px 18px;
+    border-radius: 20px;
+    
+}
+.log-btn{
+    background-color: white;
+    border: none;
+    color: black;
+    font-weight: 600;
+   
+}
+.nav-bar-btn{
+    display: flex;
+    gap: 20px;
+}
+.profile-bar{
+    width: 1200px;
+    margin: 200px auto;
+    margin-bottom: 2px;
+    margin-top: 80px;
+}
+.courses{
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    color: rgb(0, 12, 0);
+    font-weight: 700;
+    font-size: 14px;
+
+}
+
+.profile-bar{
+    width: 1200px;
+    margin: 200px auto;
+    margin-bottom: 2px;
+    margin-top: 80px;
+}
+.follow-card{
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
+.person{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+  .person-img{
+    width: 50px;
+    border-radius: 50%;
+  }  
+  .name{
+    color:  rgb(0, 12, 0);
+    margin-bottom: 0px;
+  }
+  .follow{
+    color:  rgb(136, 135, 135);
+    margin-top: 5px;
+  }
+  .emoji{
+    display: flex;
+    gap: 10px;
+    
+  }
+  .heart{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 8px ;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    margin: 2px;
+    color: rgb(0, 12, 0);
+  }
+  .bookmark{
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    padding: 8px ;
+    border-radius: 50%;
+    border: 1px solid lightgray;
+    color: rgb(0, 12, 0);
+  }
+  .image{
+    width: 1200px;
+    margin: 200px auto;
+    margin-top: 0;
+  }
+  .page-img{
+    width: 100%;
+  }
+}
+
+/* medium screen */
+@media(min-width:600px)and (max-width:1199px){
+
+
+    .img-logo{
+        width: 100px;
+    }
+    .nav-bar{
+          
+        width: 100%;
+    }
+    .menu{
+        /* width: 100%; */
+        display: none;
+        /* gap: 20px; */
+    }
+    .dribble-img{
+        display: flex;
+        align-items: center;
+    }
+    
+    .flex{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        /* gap: 40px; */
+    
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        /* gap: px; */
+        /* width: 360px; */
+    
+        /* background-color: rgb(245, 244, 244); */
+        border-radius: 30px;
+        padding: 4px 18px;
+         color: rgba(56, 55, 55, 0.767);
+    }
+    .search-text{
+        display: none;
+    }
+    
+    .sign-btn{
+        color: white;
+        background-color: rgb(0, 0, 27);
+        border: none;
+        font-weight: 600;
+        margin-left: 0;
+        padding: 14px 18px;
+        border-radius: 20px;
+        
+    }
+    .log-btn{
+        display: none;
+        background-color: white;
+        border: none;
+        color: black;
+        font-weight: 600;
+       
+    }
+    .nav-bar-btn{
+        display: flex;
+        /* gap: 20px; */
+    }
+    .profile-bar{
+        width: 100%;
+        /* margin:  auto; */
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-top: 80px;
+    }
+    .courses{
+        display: none;
+        align-items: center;
+        
+        color: rgb(0, 12, 0);
+        font-weight: 700;
+        font-size: 14px;
+    
+    }
+  
+    .follow-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .course-heading{
+        font-size: 3vmax;
+    }
+    .person{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+      .person-img{
+        width: 50px;
+        border-radius: 50%;
+      }  
+      .name{
+        color:  rgb(0, 12, 0);
+        margin-bottom: 0px;
+      }
+      .follow{
+        color:  rgb(136, 135, 135);
+        margin-top: 5px;
+      }
+      .emoji{
+        display: flex;
+        gap: 10px;
+        
+      }
+      .heart{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 8px ;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        margin: 2px;
+        color: rgb(0, 12, 0);
+      }
+      .bookmark{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 8px ;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        color: rgb(0, 12, 0);
+      }
+      .image{
+        text-align: center;
+        width: 100%;
+        /* margin:  auto; */
+        margin-top: 0;
+      }
+      .page-img{
+        width: 100%;
+        text-align: center;
+      }
+
+}
+
+/* smaller screen */
+
+@media (max-width:599px){
+
+    .img-logo{
+        width: 100px;
+    }
+    .nav-bar{
+          
+        width: 100%;
+    }
+    .menu{
+        /* width: 100%; */
+        display: none;
+        /* gap: 20px; */
+    }
+    .dribble-img{
+        display: flex;
+        align-items: center;
+    }
+    
+    .flex{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .buttons{
+        display: flex;
+        align-items: center;
+        /* gap: 40px; */
+    
+    }
+    .search{
+        display: flex;
+        align-items: center;
+        /* gap: px; */
+        /* width: 360px; */
+    
+        /* background-color: rgb(245, 244, 244); */
+        border-radius: 30px;
+        padding: 4px 18px;
+         color: rgba(56, 55, 55, 0.767);
+    }
+    .search-text{
+        display: none;
+    }
+    
+    .sign-btn{
+        color: white;
+        background-color: rgb(0, 0, 27);
+        border: none;
+        font-weight: 600;
+        margin-left: 0;
+        padding: 14px 18px;
+        border-radius: 20px;
+        
+    }
+    .log-btn{
+        display: none;
+        background-color: white;
+        border: none;
+        color: black;
+        font-weight: 600;
+       
+    }
+    .nav-bar-btn{
+        display: flex;
+        /* gap: 20px; */
+    }
+    .profile-bar{
+        width: 100%;
+        /* margin:  auto; */
+        margin-bottom: 2px;
+        margin-left: 2px;
+        margin-top: 80px;
+    }
+    .courses{
+        display: none;
+        align-items: center;
+        
+        color: rgb(0, 12, 0);
+        font-weight: 700;
+        font-size: 14px;
+    
+    }
+  
+    .follow-card{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    }
+    .course-heading{
+        font-size: 3vmax;
+    }
+    .person{
+        display: flex;
+        align-items: center;
+        gap: 16px;
+    }
+      .person-img{
+        width: 50px;
+        border-radius: 50%;
+      }  
+      .name{
+        color:  rgb(0, 12, 0);
+        margin-bottom: 0px;
+      }
+      .follow{
+        color:  rgb(136, 135, 135);
+        margin-top: 5px;
+      }
+      .emoji{
+        display: flex;
+        gap: 10px;
+        
+      }
+      .heart{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 8px ;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        margin: 2px;
+        color: rgb(0, 12, 0);
+      }
+      .bookmark{
+        width: 20px;
+        height: 20px;
+        text-align: center;
+        padding: 8px ;
+        border-radius: 50%;
+        border: 1px solid lightgray;
+        color: rgb(0, 12, 0);
+      }
+      .image{
+        text-align: center;
+        width: 100%;
+        /* margin:  auto; */
+        margin-top: 0;
+      }
+      .page-img{
+        width: 100%;
+        text-align: center;
+      } 
+}
